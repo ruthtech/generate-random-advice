@@ -43,11 +43,11 @@ All of the files can be loaded with your browser. Copy the files to your local d
 There are no automated tests.
 
 ### Manual tests (for the UI)
-First start the server via your Git terminal:
+Start the server via your Git terminal:
 
-    1. node server.js
+    1. npm start
 
-Then type "npm start" on the client for React to open a browser. 
+Then open a browser on "localhost:5000".
     1. When the browser is open, click on the button. Does the advice change?
 
 ## Deployment
