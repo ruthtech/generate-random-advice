@@ -16,7 +16,7 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 //}
 
  app.get('/', (req, res) => {  
-    res.sendFile(path.join(__dirname+'/client/build/index.html'));
+    res.sendFile(path.join(__dirname+'client/build/index.html'));
   })
 // create a GET route
 app.get('/express_backend', (req, res) => {
