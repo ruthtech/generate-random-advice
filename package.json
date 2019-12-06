@@ -8,9 +8,6 @@
     "nodemon": "^2.0.1"
   },
   "scripts": {
-    "client-install": "npm install --prefix client",
-    "start": "npm run server",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix client"
+    "start": "npm run server"
   }
 }
