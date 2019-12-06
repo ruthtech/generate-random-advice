@@ -1,5 +1,5 @@
 # Node and React
- This application shows the user some random advice.
+ This application shows the user some random advice. It's a vehicle to test creating an Express server, calling that server from React, and then deploying to Heroku.
 
 ## Getting Started
 All of the files can be loaded with your browser. Copy the files to your local directory, open a Git Terminal and type "node server.js". Then open another Git Terminal, cd client, and type "npm start". React will open a browser and on localhost:3000.
@@ -12,6 +12,7 @@ All of the files can be loaded with your browser. Copy the files to your local d
    Type "npm install" to get the following prerequisites:
       * npm express
       * npm axios
+      * npm nodemon
 
    #### Client:
    Type "npm install" to get the following prerequisites:
@@ -50,7 +51,7 @@ Then type "npm start" on the client for React to open a browser.
     1. When the browser is open, click on the button. Does the advice change?
 
 ## Deployment
-This is deployed on Heroku.
+This is deployed on Heroku. https://powerful-everglades-20008.herokuapp.com/
 
 
 ## Built With
