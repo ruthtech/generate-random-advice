@@ -15,6 +15,7 @@ function Randomizer(props) {
 
     async function fetchAdvice() {
         let response = await axios.get('/express_backend');
+        // console.log(response.data);
         setAdvice(response.data.slip.advice);
     }
 

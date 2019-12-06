@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
 // create a GET route
-app.get('/express_backend', (req, res) => {
+app.get(['/', '/express_backend'], (req, res) => {
   axios.get("https://api.adviceslip.com/advice")
   .then( 
     //res => message = res.data.slip.advice
@@ -18,5 +18,3 @@ app.get('/express_backend', (req, res) => {
   )
   .catch(err => console.log(err));
 });
-
-
