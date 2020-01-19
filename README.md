@@ -1,4 +1,4 @@
-# Node and React
+# Generate Random Advice
  This application shows the user some random advice. It's a vehicle to test creating an Express server, calling that server from React, and then deploying to Heroku.
 
 ## Getting Started
